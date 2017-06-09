@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title></title>
+
+</head>
+<style media="screen">
+    /** {
+      margin: 0;
+      padding: 0;
+    }*/
+    body {
+        font: 12px/1.5 "Microsoft YaHei", tahoma, arial, Hiragino Sans GB, 宋体;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+    .zhongjian {
+        width: auto;
+        height: auto;
+        position: relative;
+    }
+
+    .title {
+        /*position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /*height: 100%;*/
+        margin-right: 18px;
+        display: block;
+        text-decoration: none;
+        float: left;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 8px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        height: 50px;
+        width: 170px;
+        color: #ffffff;
+        line-height: 50px;
+        position: relative;
+        overflow: hidden;
+        background-color: #0499E3;
+
+    }
+
+    .dd {
+        /*line-height: 50px;*/
+        position: relative;
+        /*left: 10px;*/
+        top: 8px;
+        background: url(https://img.alicdn.com/tps/TB1uh30IpXXXXXKXVXXXXXXXXXX.png) no-repeat 0 0;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-size: 24px;
+
+    }
+
+    .entry {
+        width: 570px;
+        height: 50px;
+        margin: 15px auto 0;
+        /*background-color: green;*/
+        /*overflow: hidden;*/
+    }
+
+    .dakuang {
+        left: 0;
+        top: 0;
+        bottom: 100px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        background-image: url(https://img.alicdn.com/tps/TB1sXGYIFXXXXc5XpXXXXXXXXXX.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        display: block;
+
+    }
+
+    .dinglan {
+        height: 30px;
+        /*background-color:red;*/
+        top: 20px;
+        position: relative;
+    }
+
+    .qiantao {
+        position: relative;
+        width: 80%;
+        height: 100%;
+        /*background-color: blue;*/
+        margin: auto;
+    }
+
+    .dddddd {
+        top: 20%;
+        /*width: auto;
+        height: auto;*/
+        position: absolute;
+        text-align: center;
+        width: 100%;
+    }
+
+    .img1 {
+        width: 600px;
+        height: 200px;
+        background: url(https://img.alicdn.com/tps/TB1POhqIFXXXXXbXFXXXXXXXXXX.png) no-repeat 0 0;
+        /*background-repeat: repeat;*/
+        display: inline-block;
+        background-size: 600px;
+        margin: auto;
+        position: relative;
+        right: 0;
+        left: 0;
+        top: 0;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .logo {
+        background-image: url(https://img.alicdn.com/tps/TB17ghmIFXXXXXAXFXXXXXXXXXX.png);
+        left: 0;
+        top: 0;
+        width: 75px;
+        height: 25px;
+        background-size: 70px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    #zhanghao {
+        color: #bfbfbf;
+    }
+
+    #denglv {
+        color: white;
+        line-height: 30px;
+        text-decoration: none;
+    }
+
+    #denglv:hover {
+        color: #00bbee;
+
+    }
+
+    #zz:hover {
+        height: 100px;
+        width: 170px;
+        margin-top: -25px;
+
+        /*background-color: black;*/
+        -webkit-transition-delay:200ms;
+        /*-webkit-transition-property:background-color margin-top;*/
+        -webkit-transition-duration:400ms;
+    }
+
+    #zz:hover i,
+    #zz:hover span {
+        display: none;
+        font-size: 1px;
+    }
+
+    .cc, .ee {
+        display: none;
+        font-size: 1px;
+    }
+
+    #zz:hover .cc {
+        display: block;
+        /*font-size: x-large;
+
+        transition-delay:200ms;
+        transition-property:font-size;
+        transition-duration:2000ms;*/
+    }
+
+    #zz:hover .ee {
+        display: inline-block;
+        float: left;
+        top: 13px;
+        left: 13px;
+    }
+
+    .lor {
+        float: right;
+        position: relative;
+        height: 30px;
+    }
+
+    .footer {
+        position: absolute;
+        height: 65px;
+        background-color: white;
+        bottom: 0px;
+        display: block;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
+
+    .vv {
+        width: 170px;
+        border-bottom: 1px solid white;
+
+    }
+
+    li {
+        display: inline-block;
+    }
+  #hr{
+    margin-bottom:0px;
+    margin-top:0px;
+    /*border-top: 1px;*/
+  }
+  span{
+    opacity:0.85
+  }
+</style>
+<body>
+<div class="dakuang">
+    <div class="dinglan">
+        <div class="qiantao">
+            <div class="logo"></div>
+            <div class="lor" style=""><a id="zhanghao">我已有支付宝账号</a><a href="#" id="denglv">　快速登录</a></div>
+        </div>
+    </div>
+
+    <div class="dddddd">
+        <div class="img1"></div>
+
+        <div class="zhongjian">
+            <div class="entry">
+                <span class="title"><i class="dd"></i><span>　我是开发者</span></span>
+                <span class="title" id="zz"><i class="dd"></i><span id="qq">　我是商家用户</span>
+                <span class="cc">我是支付宝商家</span>
+                <hr width="80%" size="1" color="white" id="hr"/>
+              <!-- <hr  id="hr" size="1" color="red" width="140px" align="center"> -->
+              <span class="cc">我是口碑商家</span></span>
+                <span class="title"><i class="dd"></i><span>　我是个人用户</span></span>　
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="foot1" style="color:#666">
+        <ul>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+            <li>蚂蚁金服</li>
+            <li>|</li>
+        </ul>
+    </div>
+    <div class="footer2" style="text-align:center;color:#666">
+        <span>支付宝版权所有 2004-2017 ICP证：沪B2-20150087</span>
+    </div>
+</div>
+</body>
+<script type="text/javascript">
+    var b = document.getElementsByClassName("dakuang");
+    var q = 0;
+    var time = window.setInterval(function () {
+        if (q == 0) {
+            // background-image: url(https://img.alicdn.com/tps/TB1sXGYIFXXXXc5XpXXXXXXXXXX.jpg)
+            b[0].style.backgroundImage = 'url("https://img.alicdn.com/tps/TB1pfG4IFXXXXc6XXXXXXXXXXXX.jpg")';
+            q++;
+        }
+        else if (q == 1) {
+            b[0].style.backgroundImage = 'url("https://img.alicdn.com/tps/TB1h9xxIFXXXXbKXXXXXXXXXXXX.jpg")';
+            q++;
+        }
+        else if (q == 2) {
+            b[0].style.backgroundImage = 'url("https://img.alicdn.com/tps/TB1sXGYIFXXXXc5XpXXXXXXXXXX.jpg")';
+            q = 0;
+        }
+    }, 3000)
+
+    var hover = document.getElementsByClassName("title")[1];
+    var en = document.getElementsByClassName("entry")[0];
+    var qq1 = document.getElementById("qq");
+    // en.addEventListener("mouseover",a2);
+
+    // hover.addEventListener("mouseover",a1);
+    // function a1(aa){
+    //   aa.target.style.display="none";
+    //   aa.target.style.marginTop = "-25px";
+    //   aa.target.style.height="100px";
+    //   aa.target.style.backgroundColor="black";
+    //   qq1.target.style.display="block";
+    //   qq1.target.style.innerHTML="我是商家";
+    //
+    // }
+</script>
+</html>
